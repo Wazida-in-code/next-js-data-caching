@@ -18,3 +18,7 @@ const BookCard = ({ book }) => {
 };
 
 export default BookCard;
+
+
+
+// Study about -> SSR SSG ISR & Note it
