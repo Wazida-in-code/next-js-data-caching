@@ -12,24 +12,24 @@ const PostsPage = async() => {
     // const posts = await res.json();
 
 //option-3-data-fetching
-const getPost2 = async() => {
-    try{
-        const res = await fetch('https://jsonplaceholder.typicode.com/posts');
-        return res.json()
-    }
-    catch(error){
-        throw new Error("Failed to load data!")
-    }
-}
+// const getPost2 = async() => {
+//     try{
+//         const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+//         return res.json()
+//     }
+//     catch(error){
+//         throw new Error("Failed to load data!")
+//     }
+// }
 
 //option-4-data-fetching
-const getPost = async() => {
-    const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+// const getPost = async() => {
+//     const res = await fetch('https://jsonplaceholder.typicode.com/posts');
     
-    if (!res.ok){
-        throw new Error("Failed to load data!")
-    }
-}
+//     if (!res.ok){
+//         throw new Error("Failed to load data!")
+//     }
+// }
 
 
     const posts = await getPost();

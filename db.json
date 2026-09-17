@@ -1,0 +1,108 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 450,
+      "category": "Fiction",
+      "description": "A young shepherd follows his dreams and discovers the meaning of life.",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f"
+    },
+    {
+      "id": 2,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "price": 550,
+      "category": "Self Help",
+      "description": "A practical guide to building good habits and breaking bad ones.",
+      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e"
+    },
+    {
+      "id": 3,
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "price": 500,
+      "category": "Finance",
+      "description": "Lessons about money, investing, and how people think about wealth.",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+    },
+    {
+      "id": 4,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 750,
+      "category": "Programming",
+      "description": "A guide to writing clean, readable, and maintainable software.",
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765"
+    },
+    {
+      "id": 5,
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "price": 480,
+      "category": "Finance",
+      "description": "A personal finance book about money, investing, and financial education.",
+      "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353"
+    },
+    {
+      "id": 6,
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt",
+      "price": 800,
+      "category": "Programming",
+      "description": "Practical advice and techniques for becoming a better software developer.",
+      "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Wireless Headphones",
+      "price": 2500,
+      "category": "Electronics",
+      "description": "Comfortable wireless headphones with clear sound and long battery life.",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+    },
+    {
+      "id": 2,
+      "title": "Mechanical Keyboard",
+      "price": 4200,
+      "category": "Computer",
+      "description": "A compact mechanical keyboard designed for comfortable typing and gaming.",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+    },
+    {
+      "id": 3,
+      "title": "Smart Watch",
+      "price": 3500,
+      "category": "Wearable",
+      "description": "A stylish smartwatch for tracking fitness, notifications, and daily activities.",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+    },
+    {
+      "id": 4,
+      "title": "Laptop Backpack",
+      "price": 1800,
+      "category": "Accessories",
+      "description": "Durable backpack with dedicated compartments for laptops and accessories.",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62"
+    },
+    {
+      "id": 5,
+      "title": "USB-C Hub",
+      "price": 1500,
+      "category": "Computer",
+      "description": "Multi-port USB-C hub with HDMI, USB, and card reader support.",
+      "image": "https://images.unsplash.com/photo-1625842268584-8f3296236761"
+    },
+    {
+      "id": 6,
+      "title": "Desk Lamp",
+      "price": 1200,
+      "category": "Home",
+      "description": "Modern LED desk lamp with adjustable brightness for your workspace.",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c"
+    }
+  ]
+}
