@@ -2,7 +2,7 @@ import React from 'react';
 import ProductCard from '../components/ProductCard';
 
 const getProducts = async() => {
-    const res = await fetch('http://localhost:5000/products');
+    const res = await fetch('http://localhost:5000/products', {cache: 'no-cache'});
     return res.json()
 }
 
