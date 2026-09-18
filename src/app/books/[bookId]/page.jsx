@@ -2,7 +2,7 @@ import React from 'react';
 
 // if we want we can regenerate some data by this function & func name should always "generateStaticParams" & it is always async function, it is should export
 
-const  generateStaticParams = async() => {
+export const generateStaticParams = async() => {
     const res = await fetch('http://localhost:5000/books');
     const books = await res.json();
 
